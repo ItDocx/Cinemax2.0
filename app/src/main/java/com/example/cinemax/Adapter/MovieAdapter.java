@@ -1,5 +1,6 @@
 package com.example.cinemax.Adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Movie;
@@ -13,6 +14,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.example.cinemax.Model.MoviesModel;
 import com.example.cinemax.MovieInfo;
 import com.example.cinemax.R;
@@ -54,24 +56,42 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
         holder.image.setImageResource(moviesModelList.get(position).getImage());
 
-
         holder.image.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("ClickableViewAccessibility")
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, MovieInfo.class);
-                intent.putExtra("Movie_Image",temp.getImage());
-                intent.putExtra("Movie_Name",temp.getName());
-                intent.putExtra("Movie_Date",temp.getRelease_Date());
-                intent.putExtra("Movie_rating",temp.getRating());
-                intent.putExtra("Movie_Desc",temp.getDescription());
-                intent.putExtra("Movie_Direc",temp.getDirectors());
-                intent.putExtra("Movie_Producer",temp.getProducers());
-                intent.putExtra("Movie_Duration",temp.getDuration());
-                intent.putExtra("Movie_Genre",temp.getGenre());
-                intent.putExtra("Movie_Cast",temp.getCast());
+
+                intent.putExtra("Movie_Image", temp.getImage());
+                intent.putExtra("Movie_Name", temp.getName());
+                intent.putExtra("Movie_Date", temp.getRelease_Date());
+                intent.putExtra("Movie_rating", temp.getRating());
+                intent.putExtra("Movie_Desc", temp.getDescription());
+                intent.putExtra("Movie_Direc", temp.getDirectors());
+                intent.putExtra("Movie_Producer", temp.getProducers());
+                intent.putExtra("Movie_Duration", temp.getDuration());
+                intent.putExtra("Movie_Genre", temp.getGenre());
+                intent.putExtra("Movie_Cast", temp.getCast());
 
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
+
+
+/*                if (holder.image.callOnClick()){
+
+                    holder.Rimage1.setImageResource(R.drawable.interstellar_dp);
+                    holder.Rimage2.setImageResource(R.drawable.jurassic_world_dp);
+                    holder.Rimage3.setImageResource(R.drawable.the_dark_knight_dp);
+
+                }
+                else
+                {
+                    holder.Rimage2.setImageResource(R.drawable.interstellar_dp);
+                    holder.Rimage1.setImageResource(R.drawable.inception_poster);
+                    holder.Rimage3.setImageResource(R.drawable.jurassic_park_dp);
+
+                }
+                                                 */
             }
         });
 
@@ -84,7 +104,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        ImageView image;
+        ImageView image,Rimage1,Rimage2,Rimage3;
         TextView name,date,rating,duration,cast,producer,director,decription,genre;
 
         public ViewHolder(@NonNull View itemView) {
@@ -100,6 +120,10 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
             director = itemView.findViewById(R.id.direct_txt);
             producer = itemView.findViewById(R.id.produce_txt);
             decription = itemView.findViewById(R.id.desc_txt);
+
+            Rimage1 = itemView.findViewById(R.id.relatedIV1);
+            Rimage2 = itemView.findViewById(R.id.relatedIV2);
+            Rimage3 = itemView.findViewById(R.id.relatedIV3);
 
 
         }

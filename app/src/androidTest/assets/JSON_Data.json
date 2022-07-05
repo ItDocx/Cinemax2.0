@@ -1,0 +1,323 @@
+{
+	"Persons": [{
+			"Cast_Inception": [{
+					"Name": "Leonardo DiCaprio",
+					"Role": "Cobb",
+					"ImageDP": "https://image.tmdb.org/t/p/w235_and_h235_face/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
+					"ImageCover": "https://www.denverpost.com/wp-content/uploads/2016/04/20160225__DP_NGPS_TypeSetExport20160226_C2_AE26TVDICAPRIOp1.jpg?w=1024",
+					"DOB": "November 11, 1974",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://i.ytimg.com/vi/H1JAeBT2FJ0/movieposter_en.jpg",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Ken Watanabe",
+					"Role": "Saito",
+					"ImageDP": "https://i.pinimg.com/originals/9d/6a/1c/9d6a1cee4cbaeb1a24c017e2cfaf1586.jpg",
+					"ImageCover": "https://cdn.tatlerasia.com/tatlerasia/i/2022/04/06170904-ken-watanabe-cover_cover_1500x1000.jpg",
+					"DOB": "October 21, 1959",
+					"Spouse": "Kaho Minami (m. 2005–2018), Yumiko Watanabe (m. 1983–2005)",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Christian Bale",
+					"Role": "Eames",
+					"ImageDP": "https://static.wikia.nocookie.net/marvel_dc/images/1/1b/Christian_Bale_Mug_2.jpg/revision/latest?cb=20190930215347",
+					"ImageCover": "https://areajugones.sport.es/wp-content/uploads/2020/12/christian-bale.jpg",
+					"DOB": "January 30, 1974",
+					"Spouse": "Sibi Blažić",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				},
+				{
+					"Directors": [{
+						"Name": "Christopher Nolan",
+						"ImageDP": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Christopher_Nolan%2C_London%2C_2013_%28crop%29.jpg",
+						"ImageCover": "https://thenewdaily.com.au/wp-content/uploads/2021/11/1637482208-Christopher-Nolan.jpg?resize=960%2C540",
+						"DOB": "July 30, 1970",
+						"Spouse": "Emma thomas",
+						"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+						"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+						"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+					}, {
+						"NameP": "Emma thomas",
+						"ImageDP": "https://static.wikia.nocookie.net/batman/images/a/a7/EmmaThomas.jpg/revision/latest/top-crop/width/360/height/450?cb=20150823153644",
+						"ImageCover": "https://ichef.bbci.co.uk/images/ic/1200x675/p09w4yz5.jpg",
+						"DOB": "December 9, 1971",
+						"Spouse": "Christopher nolan",
+						"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+						"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+						"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+					}]
+				}
+			]
+		}, {
+			"Cast_TDKR": [{
+					"Name": "Christian Bale",
+					"Role": "batman",
+					"ImageDP": "https://static.wikia.nocookie.net/marvel_dc/images/1/1b/Christian_Bale_Mug_2.jpg/revision/latest?cb=20190930215347",
+					"ImageCover": "https://areajugones.sport.es/wp-content/uploads/2020/12/christian-bale.jpg",
+					"DOB": "January 30, 1974",
+					"Spouse": "Sibi Blažić",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Jeff Goldblum",
+					"Role": "Joker",
+					"ImageDP": "https://image.tmdb.org/t/p/w500/m8p62pvkVtPxkfAIJhb5AgGw8kA.jpg",
+					"ImageCover": "https://cdn.onebauer.media/one/media/6255/5a5b/253f/342f/1479/4f65/jeff-goldblum-jurassic-world-dominion.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill",
+					"DOB": "October 22, 1952",
+					"Spouse": "Emilie Livingston (m. 2014), Geena Davis (m. 1987–1990), Patricia Gaul (m. 1980–1986)",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Leonardo DiCaprio",
+					"Role": "Bane",
+					"ImageDP": "https://image.tmdb.org/t/p/w235_and_h235_face/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
+					"ImageCover": "https://www.denverpost.com/wp-content/uploads/2016/04/20160225__DP_NGPS_TypeSetExport20160226_C2_AE26TVDICAPRIOp1.jpg?w=1024",
+					"DOB": "November 11, 1974",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				},
+				{
+					"Directors": [{
+						"Name": "christopher nolan",
+						"ImageDP": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Christopher_Nolan%2C_London%2C_2013_%28crop%29.jpg",
+						"ImageCover": "https://thenewdaily.com.au/wp-content/uploads/2021/11/1637482208-Christopher-Nolan.jpg?resize=960%2C540",
+						"DOB": "July 30, 1970",
+						"Spouse": "Emma thomas",
+						"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+						"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+						"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+					}, {
+						"NameP": "emma thomas",
+						"ImageDP": "https://static.wikia.nocookie.net/batman/images/a/a7/EmmaThomas.jpg/revision/latest/top-crop/width/360/height/450?cb=20150823153644",
+						"ImageCover": "https://ichef.bbci.co.uk/images/ic/1200x675/p09w4yz5.jpg",
+						"DOB": "December 9, 1971",
+						"Spouse": "Christopher nolan",
+						"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+						"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+						"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+					}, {
+						"NameP": "charles roven",
+						"ImageDP": "https://static.toiimg.com/thumb/61402898.cms?width=170&height=240&imgsize=19125",
+						"ImageCover": "https://deadline.com/wp-content/uploads/2018/01/charles-roven.jpg?w=637&h=383&crop=1",
+						"DOB": "August 2, 1949",
+						"Spouse": "Dawn Steel (m. 1985–1997), Stephanie Haymes Roven",
+						"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+						"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+						"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+					}]
+				}
+			]
+		},
+		{
+			"Cast_JW": [{
+					"Name": "Jeff Goldblum",
+					"Role": "Ian",
+					"ImageDP": "https://image.tmdb.org/t/p/w500/m8p62pvkVtPxkfAIJhb5AgGw8kA.jpg",
+					"ImageCover": "https://cdn.onebauer.media/one/media/6255/5a5b/253f/342f/1479/4f65/jeff-goldblum-jurassic-world-dominion.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill",
+					"DOB": "October 22, 1952",
+					"Spouse": "Emilie Livingston (m. 2014), Geena Davis (m. 1987–1990), Patricia Gaul (m. 1980–1986)",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Ariana Richards",
+					"Role": "Lex",
+					"ImageDP": "https://cdn.idolbirthdays.net/images/25/ariana-richards.jpg",
+					"ImageCover": "https://norway.postsen.com/temp/resized/medium_2022-07-03-f0502c5a02.jpg",
+					"DOB": "September 11, 1979",
+					"Spouse": "Mark Aaron Bolton",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Christian Bale",
+					"Role": "Wong",
+					"ImageDP": "https://static.wikia.nocookie.net/marvel_dc/images/1/1b/Christian_Bale_Mug_2.jpg/revision/latest?cb=20190930215347",
+					"ImageCover": "https://areajugones.sport.es/wp-content/uploads/2020/12/christian-bale.jpg",
+					"DOB": "January 30, 1974",
+					"Spouse": "Sibi Blažić",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Ken Watanabe",
+					"Role": "Bob",
+					"ImageDP": "https://i.pinimg.com/originals/9d/6a/1c/9d6a1cee4cbaeb1a24c017e2cfaf1586.jpg",
+					"ImageCover": "https://cdn.tatlerasia.com/tatlerasia/i/2022/04/06170904-ken-watanabe-cover_cover_1500x1000.jpg",
+					"DOB": "October 21, 1959",
+					"Spouse": "Kaho Minami (m. 2005–2018), Yumiko Watanabe (m. 1983–2005)",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Sam Neill",
+					"Role": "Alan",
+					"ImageDP": "https://image.tmdb.org/t/p/w235_and_h235_face/bNZ03phkLewj8eUR6mGbKZ7jtmv.jpg",
+					"ImageCover": "https://mytvonline.io/wp-content/uploads/2022/02/Sam-Neill.jpg",
+					"DOB": "September 14, 1947",
+					"Spouse": "Noriko Watanabe",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				},
+				{
+					"Directors": [{
+						"Name": "steven spielberg",
+						"ImageDP": "https://image.tmdb.org/t/p/w235_and_h235_face/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg",
+						"ImageCover": "https://www.hollywoodreporter.com/wp-content/uploads/2013/02/spielberg.jpg?w=1024",
+						"DOB": "December 18, 1946",
+						"Spouse": "Kate Capshaw (m. 1991), Amy Irving (m. 1985–1989)",
+						"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+						"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+						"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+					}, {
+						"NameP": "Kathleen Kennedy",
+						"ImageDP": "https://www.starwars-union.de/diefilme/episode7/bilder/20210529-kathleen-kennedy.jpg",
+						"ImageCover": "https://www.wdwinfo.com/wp-content/uploads/2018/09/KathleenKennedy.jpg",
+						"DOB": "June 5, 1953",
+						"Spouse": "Frank Marshall",
+						"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+						"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+						"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+					}]
+				}
+			]
+		},
+		{
+			"Cast_JP": [{
+					"Name": "Jeff Goldblum",
+					"ImageDP": "https://image.tmdb.org/t/p/w500/m8p62pvkVtPxkfAIJhb5AgGw8kA.jpg",
+					"ImageCover": "https://cdn.onebauer.media/one/media/6255/5a5b/253f/342f/1479/4f65/jeff-goldblum-jurassic-world-dominion.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill",
+					"Role": "Ian",
+					"DOB": "October 22, 1952",
+					"Spouse": "Emilie Livingston (m. 2014), Geena Davis (m. 1987–1990), Patricia Gaul (m. 1980–1986)",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Chris Pratt",
+					"Role": "Sam",
+					"ImageDP": "https://i.pinimg.com/originals/eb/18/88/eb1888d3ebfc3f4ac836a1b7e791172c.jpg",
+					"ImageCover": "https://deseret.brightspotcdn.com/dims4/default/aa1394e/2147483647/strip/false/crop/3000x1688+0+173/resize/1200x675!/quality/90/?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FcmY-_MrFWraVbKPvyMVUmgP-vgA%3D%2F0x0%3A3000x2033%2F3000x2033%2Ffilters%3Afocal%281500x1017%3A1501x1018%29%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F21973105%2FAP20163749318092.jpg",
+					"DOB": "June 21, 1979",
+					"Spouse": "Katherine Schwarzenegger (m. 2019), Anna Faris (m. 2009–2018)",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Laura Dern",
+					"Role": "Ellie",
+					"ImageDP": "https://image.tmdb.org/t/p/w500/gB9PnGEvxKg33OSlcqptQwTBwPE.jpg",
+					"ImageCover": "https://bestlifeonline.com/wp-content/uploads/sites/3/2021/03/Laura-Dern.jpg?quality=82&strip=all",
+					"DOB": "February 10, 1967",
+					"Spouse": "Ben Harper",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Sam Neill",
+					"Role": "Alan",
+					"ImageDP": "https://image.tmdb.org/t/p/w235_and_h235_face/bNZ03phkLewj8eUR6mGbKZ7jtmv.jpg",
+					"ImageCover": "https://mytvonline.io/wp-content/uploads/2022/02/Sam-Neill.jpg",
+					"DOB": "September 14, 1947",
+					"Spouse": "Noriko Watanabe",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Ariana Richards",
+					"Role": "Lex",
+					"ImageDP": "https://cdn.idolbirthdays.net/images/25/ariana-richards.jpg",
+					"ImageCover": "https://norway.postsen.com/temp/resized/medium_2022-07-03-f0502c5a02.jpg",
+					"DOB": "September 11, 1979",
+					"Spouse": "Mark Aaron Bolton",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				},
+				{
+					"Directors": [{
+						"Name": "steven spielberg",
+						"ImageDP": "https://image.tmdb.org/t/p/w235_and_h235_face/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg",
+						"ImageCover": "https://www.hollywoodreporter.com/wp-content/uploads/2013/02/spielberg.jpg?w=1024",
+						"DOB": "December 18, 1946",
+						"Spouse": "Kate Capshaw (m. 1991), Amy Irving (m. 1985–1989)",
+						"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+						"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+						"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+					}, {
+						"NameP": "Kathleen Kennedy",
+						"ImageDP": "https://www.starwars-union.de/diefilme/episode7/bilder/20210529-kathleen-kennedy.jpg",
+						"ImageCover": "https://www.wdwinfo.com/wp-content/uploads/2018/09/KathleenKennedy.jpg",
+						"DOB": "June 5, 1953",
+						"Spouse": "Frank Marshall",
+						"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+						"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+						"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+					}]
+				}
+			]
+		},
+		{
+			"Cast_Interstellar": [{
+					"Name": "Leonardo DiCaprio",
+					"Role": "Timothy",
+					"ImageDP": "https://image.tmdb.org/t/p/w235_and_h235_face/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
+					"ImageCover": "https://www.denverpost.com/wp-content/uploads/2016/04/20160225__DP_NGPS_TypeSetExport20160226_C2_AE26TVDICAPRIOp1.jpg?w=1024",
+					"DOB": "November 11, 1974",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Ken Watanabe",
+					"Role": "Tom",
+					"ImageDP": "https://i.pinimg.com/originals/9d/6a/1c/9d6a1cee4cbaeb1a24c017e2cfaf1586.jpg",
+					"ImageCover": "https://cdn.tatlerasia.com/tatlerasia/i/2022/04/06170904-ken-watanabe-cover_cover_1500x1000.jpg",
+					"DOB": "October 21, 1959",
+					"Spouse": "Kaho Minami (m. 2005–2018), Yumiko Watanabe (m. 1983–2005)",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				}, {
+					"Name": "Christian Bale",
+					"Role": "Mann",
+					"ImageDP": "https://static.wikia.nocookie.net/marvel_dc/images/1/1b/Christian_Bale_Mug_2.jpg/revision/latest?cb=20190930215347",
+					"ImageCover": "https://areajugones.sport.es/wp-content/uploads/2020/12/christian-bale.jpg",
+					"DOB": "January 30, 1974",
+					"Spouse": "Sibi Blažić",
+					"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+					"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+					"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+				},
+				{
+					"Directors": [{
+						"Name": "christopher nolan",
+						"ImageDP": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Christopher_Nolan%2C_London%2C_2013_%28crop%29.jpg",
+						"ImageCover": "https://thenewdaily.com.au/wp-content/uploads/2021/11/1637482208-Christopher-Nolan.jpg?resize=960%2C540",
+						"DOB": "July 30, 1970",
+						"Spouse": "Emma thomas",
+						"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+						"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+						"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+					}, {
+						"NameP": "emma thomas",
+						"ImageDP": "https://static.wikia.nocookie.net/batman/images/a/a7/EmmaThomas.jpg/revision/latest/top-crop/width/360/height/450?cb=20150823153644",
+						"ImageCover": "https://ichef.bbci.co.uk/images/ic/1200x675/p09w4yz5.jpg",
+						"DOB": "December 9, 1971",
+						"Spouse": "Christopher nolan",
+						"RMovie_Image1": "https://movieposters2.com/images/735951-b.jpg",
+						"RMovie_Image2": "https://www.denofgeek.com/wp-content/uploads/2020/10/jurassic-world-dominion-poster-universal-amblin.jpg?resize=647,1024",
+						"RMovie_Image3": "https://image.tmdb.org/t/p/original/qUZiVjFBd67WKktIrjJ9H3tesyo.jpg"
+					}]
+				}
+			]
+		}
+	]
+}

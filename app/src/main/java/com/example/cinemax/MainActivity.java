@@ -20,7 +20,9 @@ private ImageSlider imageSlider;
 private RecyclerView recyclerView;
 private ArrayList<MoviesModel> Movielist = new ArrayList<>();
 
-int[] MovieImages = {R.drawable.the_dark_knight_dp,R.drawable.jurassic_world_dp,R.drawable.inception_poster,R.drawable.jurassic_park_dp,R.drawable.interstellar_dp};
+int[] MovieImages = {R.drawable.the_dark_knight_dp, R.drawable.jurassic_world_dp,
+        R.drawable.inception_poster, R.drawable.jurassic_park_dp,
+        R.drawable.interstellar_dp};
 
 
     @Override
@@ -65,13 +67,13 @@ int[] MovieImages = {R.drawable.the_dark_knight_dp,R.drawable.jurassic_world_dp,
         String[] cast = getResources().getStringArray(R.array.Cast);
         String[] genre = getResources().getStringArray(R.array.Genre);
     //    String[] Description = getResources().getStringArray(R.array.Description);
-    //    String[] directors = getResources().getStringArray(R.array.Directors);
-    //    String[] duration = getResources().getStringArray(R.array.Duration);
-    //    String[] producers = getResources().getStringArray(R.array.Producers);
+        String[] directors = getResources().getStringArray(R.array.Directors);
+        String[] duration = getResources().getStringArray(R.array.Duration);
+        String[] producers = getResources().getStringArray(R.array.Producers);
         for (int i=0; i< MovieName.length; i++)
         {
             Movielist.add(new MoviesModel(MovieImages[i],MovieName[i],
-                    Release_Date[i],rating[i],"",genre[i],"","","",cast[i]));
+                    Release_Date[i],rating[i],"",genre[i],directors[i],duration[i],producers[i],cast[i]));
 
 
         }

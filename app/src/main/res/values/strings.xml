@@ -27,14 +27,6 @@
     </string-array>
 
 
-    <string-array name="Duration">
-        <item>2:10:00</item>
-        <item>1:49:00</item>
-        <item>2:28:00</item>
-        <item>2:05:00</item>
-        <item>2:49:00</item>
-    </string-array>
-
     <string-array name="Directors">
         <item>Christopher Nolan</item>
         <item>Colin Trevorrow</item>
@@ -60,7 +52,7 @@
     </string-array>
 
 
-    <!--  <string-array name="Duration">
+    <string-array name="Duration">
           <item>2:10:00</item>
           <item>1:49:00</item>
           <item>2:28:00</item>
