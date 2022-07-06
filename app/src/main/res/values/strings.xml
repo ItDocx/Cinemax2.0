@@ -4,7 +4,7 @@
 
     <string-array name="Movies_Names">
         <item>The Dark Knight Rises</item>
-        <item>Jurassic World</item>
+        <item>Jurassic World Dominion</item>
         <item>Inception</item>
         <item>Jurassic Park</item>
         <item>Interstellar</item>
@@ -37,10 +37,10 @@
 
     <string-array name="Producers">
         <item>Emma Thomas</item>
-        <item>Frank Marshall, Patrick Crowley</item>
-        <item>Emma Thomas, Christopher Nolan</item>
-        <item>Kathleen Kennedy, Gerald R.Molen</item>
-        <item>Emma Thomas, Christopher Nolan</item>
+        <item>Frank Marshall</item>
+        <item>Emma Thomas</item>
+        <item>Kathleen Kennedy</item>
+        <item>Emma Thomas</item>
     </string-array>
 
     <string-array name="Cast">
@@ -53,12 +53,13 @@
 
 
     <string-array name="Duration">
-          <item>2:10:00</item>
-          <item>1:49:00</item>
-          <item>2:28:00</item>
-          <item>2:05:00</item>
-          <item>2:49:00</item>
-      </string-array>                  -->
+        <item>2:10:00</item>
+        <item>1:49:00</item>
+        <item>2:28:00</item>
+        <item>2:05:00</item>
+        <item>2:49:00</item>
+    </string-array>
+    -->
 
     <string-array name="Genre">
         <item>Action,Thriller</item>
@@ -68,13 +69,20 @@
         <item>Scifi,Adventure</item>
     </string-array>
 
-    <!-- <string-array name="Description">
+    <string-array name="Production">
+        <item>Legendary Pictures</item>
+        <item>Amblin Entertainment</item>
+        <item>Legendary Pictures</item>
+        <item>Universal Pictures</item>
+        <item>Lynda Obst Productions</item>
+    </string-array>
+
+    <!--  <string-array name="Description">
         <item>Bane, an imposing terrorist, attacks Gotham City and disrupts its eight-year-long period of peace. This forces Bruce Wayne to come out of hiding and don the cape and cowl of Batman again</item>
-        <item>Four years after the destruction of Isla Nublar, dinosaurs now live and hunt alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history's most fearsome creatures</item>
+        <item>Four years after the destruction of Isla Nublar, dinosaurs now live and hunt alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all</item>
         <item>Cobb steals information from his targets by entering their dreams. Saito offers to wipe clean Cobb's criminal history as payment for performing an inception on his sick competitor's son</item>
         <item>John Hammond, an entrepreneur, opens a wildlife park containing cloned dinosaurs. However, a breakdown of the island's security system causes the creatures to escape and bring about chaos</item>
         <item>When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans</item>
     </string-array>
--->
-
+                                                        -->
 </resources>

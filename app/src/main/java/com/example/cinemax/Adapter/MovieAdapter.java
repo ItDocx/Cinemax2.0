@@ -15,6 +15,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.cinemax.CastInfo;
 import com.example.cinemax.Model.MoviesModel;
 import com.example.cinemax.MovieInfo;
 import com.example.cinemax.R;
@@ -26,6 +27,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
     private Context context;
     private List<MoviesModel> moviesModelList;
+
 
     public MovieAdapter(Context context, List<MoviesModel> moviesModelList) {
         this.context = context;
@@ -53,6 +55,8 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
         holder.director.setText(moviesModelList.get(position).getRelease_Date());
         holder.genre.setText(moviesModelList.get(position).getRelease_Date());
         holder.producer.setText(moviesModelList.get(position).getRelease_Date());
+        holder.production.setText(moviesModelList.get(position).getProduction());
+
 
         holder.image.setImageResource(moviesModelList.get(position).getImage());
 
@@ -72,28 +76,15 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                 intent.putExtra("Movie_Duration", temp.getDuration());
                 intent.putExtra("Movie_Genre", temp.getGenre());
                 intent.putExtra("Movie_Cast", temp.getCast());
+                intent.putExtra("Production",temp.getProduction());
+
 
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
-
-
-/*                if (holder.image.callOnClick()){
-
-                    holder.Rimage1.setImageResource(R.drawable.interstellar_dp);
-                    holder.Rimage2.setImageResource(R.drawable.jurassic_world_dp);
-                    holder.Rimage3.setImageResource(R.drawable.the_dark_knight_dp);
-
-                }
-                else
-                {
-                    holder.Rimage2.setImageResource(R.drawable.interstellar_dp);
-                    holder.Rimage1.setImageResource(R.drawable.inception_poster);
-                    holder.Rimage3.setImageResource(R.drawable.jurassic_park_dp);
-
-                }
-                                                 */
             }
         });
+
+
 
     }
 
@@ -105,7 +96,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         ImageView image,Rimage1,Rimage2,Rimage3;
-        TextView name,date,rating,duration,cast,producer,director,decription,genre;
+        TextView name,date,rating,duration,cast,producer,director,decription,genre,production;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -120,6 +111,8 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
             director = itemView.findViewById(R.id.direct_txt);
             producer = itemView.findViewById(R.id.produce_txt);
             decription = itemView.findViewById(R.id.desc_txt);
+            production = itemView.findViewById(R.id.productions);
+
 
             Rimage1 = itemView.findViewById(R.id.relatedIV1);
             Rimage2 = itemView.findViewById(R.id.relatedIV2);
@@ -128,4 +121,20 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
 
         }
     }
+
+    /*                if (holder.image.callOnClick()){
+
+                    holder.Rimage1.setImageResource(R.drawable.interstellar_dp);
+                    holder.Rimage2.setImageResource(R.drawable.jurassic_world_dp);
+                    holder.Rimage3.setImageResource(R.drawable.the_dark_knight_dp);
+
+                }
+                else
+                {
+                    holder.Rimage2.setImageResource(R.drawable.interstellar_dp);
+                    holder.Rimage1.setImageResource(R.drawable.inception_poster);
+                    holder.Rimage3.setImageResource(R.drawable.jurassic_park_dp);
+
+                }
+                                                 */
 }

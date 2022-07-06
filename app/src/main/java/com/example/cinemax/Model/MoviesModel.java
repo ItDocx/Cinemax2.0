@@ -12,9 +12,10 @@ public class MoviesModel {
     String Duration;
     String Producers;
     String Cast;
+    String Production;
 
 
-    public MoviesModel(int image, String name, String release_Date, String rating, String description, String genre, String directors, String duration, String producers, String cast) {
+    public MoviesModel(int image, String name, String release_Date, String rating, String description, String genre, String directors, String duration, String producers, String cast,String production) {
         Image = image;
         Name = name;
         Release_Date = release_Date;
@@ -25,6 +26,7 @@ public class MoviesModel {
         Duration = duration;
         Producers = producers;
         Cast = cast;
+        Production = production;
     }
 
     public int getImage() {
@@ -105,5 +107,13 @@ public class MoviesModel {
 
     public void setCast(String cast) {
         this.Cast = cast;
+    }
+
+    public String getProduction() {
+        return Production;
+    }
+
+    public void setProduction(String production) {
+        Production = production;
     }
 }

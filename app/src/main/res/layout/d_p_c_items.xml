@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/bg_list"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layou_Directors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/directorsheader_txt"
+        android:text="Directors: "
+        android:textStyle="bold"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_5sdp" />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/directorDpIV"
+    android:visibility="gone" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/directorCoverIV"
+            android:visibility="gone" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/directorRMovieIV"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/directorDOB_txt"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/directorSpouse_txt"
+            android:visibility="gone"/>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/directorsheader_txt">
+    <TextView
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="Christopher Nolan"
+        android:textColor="@color/link_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/directorsheader_txt"
+        android:id="@+id/directorsInfo_txt"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@drawable/txt_underline"
+        android:layout_below="@id/directorsInfo_txt"
+        />
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/layout_Producers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/producersheader_txt"
+            android:text="Producers: "
+            android:textStyle="bold"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_5sdp" />
+
+        <LinearLayout
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/directorsheader_txt">
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Christopher Nolan"
+                android:textColor="@color/link_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/directorsheader_txt"
+                android:id="@+id/ProducersInfo_txt1"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@drawable/txt_underline"
+                android:layout_below="@id/directorsInfo_txt"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/directorsheader_txt">
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Christopher Nolan"
+                android:textColor="@color/link_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/directorsheader_txt"
+                android:id="@+id/ProducersInfo_txt2"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@drawable/txt_underline"
+                android:layout_below="@id/directorsInfo_txt"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/directorsheader_txt">
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Christopher Nolan"
+                android:textColor="@color/link_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/directorsheader_txt"
+                android:id="@+id/ProducersInfo_txt3"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@drawable/txt_underline"
+                android:layout_below="@id/directorsInfo_txt"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_Cast"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Casteader_txt"
+            android:text="Cast: "
+            android:textStyle="bold"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_5sdp" />
+
+        <LinearLayout
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/directorsheader_txt">
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Christopher Nolan"
+                android:textColor="@color/link_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/directorsheader_txt"
+                android:id="@+id/castInfo_txt1"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@drawable/txt_underline"
+                android:layout_below="@id/directorsInfo_txt"
+                />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Christopher Nolan"
+                android:textColor="@color/link_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/directorsheader_txt"
+                android:id="@+id/castInfo_txt2"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@drawable/txt_underline"
+                android:layout_below="@id/directorsInfo_txt"
+                />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Christopher Nolan"
+                android:textColor="@color/link_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/directorsheader_txt"
+                android:id="@+id/castInfo_txt3"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@drawable/txt_underline"
+                android:layout_below="@id/directorsInfo_txt"
+                />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Christopher Nolan"
+                android:textColor="@color/link_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/directorsheader_txt"
+                android:id="@+id/castInfo_txt4"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@drawable/txt_underline"
+                android:layout_below="@id/directorsInfo_txt"
+                />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Christopher Nolan"
+                android:textColor="@color/link_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/directorsheader_txt"
+                android:id="@+id/castInfo_txt5"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="@drawable/txt_underline"
+                android:layout_below="@id/directorsInfo_txt"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

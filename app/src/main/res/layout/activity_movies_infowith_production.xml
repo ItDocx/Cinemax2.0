@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rating_color"
+    tools:context=".MoviesInfowithProduction">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/layout_cover"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp">
+
+            <ImageView
+                android:id="@+id/coverIV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/ariana_richards_cover" />
+            <ImageView
+                android:id="@+id/profileIV"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="@dimen/_2sdp"
+                android:background="@drawable/bg_profile"
+                android:elevation="@dimen/_5sdp"
+                android:padding="@dimen/_2sdp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ariana_richards_dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_Data"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-30dp"
+            android:background="@drawable/bg_recycler"
+            android:elevation="@dimen/_5sdp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_cover">
+
+            <RelativeLayout
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+
+                    android:id="@+id/PersonName_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:text="Anne Hathaway"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Producer: "
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold"
+                    android:id="@+id/producers_txt_movieInfo"
+                    android:layout_below="@+id/PersonName_txt"/>
+
+                <TextView
+                    android:id="@+id/directors_txt_movieInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/producers_txt_movieInfo"
+                    android:text="Directors: "
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/productionCompany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/directors_txt_movieInfo"
+                    android:text="Production:  "
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold" />
+
+
+                <!--     <TextView
+                         android:id="@+id/Occupation_txt"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/DOB_txt"
+                         android:layout_marginTop="@dimen/_5sdp"
+                         android:text="Occupation: Actor"
+                         android:textColor="@color/white"
+                         android:textSize="@dimen/_12ssp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/Active_txt"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:textColor="@color/white"
+                         android:textSize="@dimen/_12ssp"
+                         android:textStyle="bold"
+                         android:text="Years Active: 1999- Present"
+                         android:layout_below="@id/Occupation_txt"
+                         android:layout_marginTop="@dimen/_5sdp"
+                         />                                    -->
+
+
+                <!--            <TextView
+                                android:id="@+id/Child_txt"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/Spouse_txt"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:text="Childrens: 2"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_12ssp"
+                                android:textStyle="bold" />             -->
+
+                <TextView
+                    android:id="@+id/OverViewCast_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/productionCompany"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="OverView: "
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/OverViewCastChange_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/productionCompany"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_toEndOf="@id/OverViewCast_txt"
+                    android:text="sb dnasbj kjas kdbjhb baslcsbc sac ac asccjn a a c cac javchas cac ac agav cjnabcg ac ac axascabc ahbckasb cghklc ahcgjqhdqwdjsc ag  c ascuh asdgqugxcjasv cuygaydgqwjh bduhafcasc as casijxc nlxbcuaciag suhcf asc acbuhagcfas cq cq cs uqshc uiqgchbqshcgui"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp"
+                    android:textAlignment="textStart"
+
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

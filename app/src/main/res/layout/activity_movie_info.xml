@@ -18,9 +18,9 @@
             android:id="@+id/posterImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@color/rating_color"
             android:background="@color/black"
-            />
+            android:scaleType="fitXY"
+            android:src="@color/rating_color" />
 
     </RelativeLayout>
     <LinearLayout
@@ -35,6 +35,7 @@
         android:id="@+id/layout_InfoMain"
         android:layout_marginTop="-20dp">
         <androidx.core.widget.NestedScrollView
+            android:layout_marginTop="@dimen/_10sdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         <RelativeLayout
@@ -47,11 +48,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/_5sdp"
-                android:textStyle="bold"
                 android:text="Movie Full Name"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="@dimen/_18ssp" />
+                android:textSize="@dimen/_18ssp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/rating_txt"
@@ -151,73 +152,87 @@
             </RelativeLayout>
 
 
-            <RelativeLayout
-                android:layout_below="@id/layout_Genre"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/layout_directors"
-                android:layout_marginTop="@dimen/_5sdp">
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:text="Directors: "
-                android:textStyle="bold"
-                android:id="@+id/directors_txt" />
-
-                <TextView
-                    android:layout_toEndOf="@id/directors_txt"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:text="Directors: Christopher"
-                android:id="@+id/directors_txt_change"
-                />
-            </RelativeLayout>
-
-
-            <RelativeLayout
-                android:id="@+id/layout_producers"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:layout_below="@id/layout_directors">
+                android:id="@+id/directors_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_Genre"
+                android:text="Directors: "
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
             <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/directors_txt_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_Genre"
+                android:layout_toEndOf="@id/directors_txt"
+                android:background="@drawable/bg_txt_stroke"
+                android:text="Christopher Nolan"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
                 android:id="@+id/producers_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/directors_txt"
                 android:text="Producers: "
-                android:textStyle="bold"
                 android:textColor="@color/white"
-                />
+                android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/producers_txt_change"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/producers_txt"
-                    android:text="Producers: "
-                    android:textColor="@color/white"
-                    />
-
-            </RelativeLayout>
-
-
-            <RelativeLayout
-                android:id="@+id/layout_cast"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:layout_below="@+id/layout_producers">
             <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/producers_txt_change"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/directors_txt"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_toEndOf="@id/producers_txt"
+                android:background="@drawable/bg_txt_stroke"
+                android:text="producer 1 "
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/production_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/producers_txt"
+                android:text="Production: "
                 android:textColor="@color/white"
-                android:textStyle="bold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/production_change_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/producers_txt"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_toEndOf="@id/production_txt"
+                android:text="Production House "
+                android:background="@drawable/bg_txt_stroke"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:layout_marginTop="@dimen/_5sdp"
+                android:id="@+id/cast_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/production_txt"
                 android:text="Cast: "
-                android:id="@+id/cast_txt"/>
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
                 <TextView
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_below="@id/production_txt"
                     android:layout_toEndOf="@id/cast_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -225,19 +240,17 @@
                     android:text="anscjnsdfhdncndh asdhkcvadhcvsbdvjl d dfudfh "
                     android:id="@+id/cast_txt_change"/>
 
-            </RelativeLayout>
-
 
             <TextView
-                android:layout_marginTop="@dimen/_5sdp"
+
+                android:id="@+id/related_txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/related_txt"
+                android:layout_below="@id/cast_txt_change"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:text="Related: "
-                android:textStyle="bold"
                 android:textColor="@color/white"
-                android:layout_below="@id/layout_cast"
-                />
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"

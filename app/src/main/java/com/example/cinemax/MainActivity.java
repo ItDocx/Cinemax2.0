@@ -63,17 +63,19 @@ int[] MovieImages = {R.drawable.the_dark_knight_dp, R.drawable.jurassic_world_dp
 
         String[] MovieName = getResources().getStringArray(R.array.Movies_Names);
         String[] Release_Date = getResources().getStringArray(R.array.Release_Dates);
-       String[] rating = getResources().getStringArray(R.array.Rating);
+        String[] rating = getResources().getStringArray(R.array.Rating);
         String[] cast = getResources().getStringArray(R.array.Cast);
         String[] genre = getResources().getStringArray(R.array.Genre);
-    //    String[] Description = getResources().getStringArray(R.array.Description);
         String[] directors = getResources().getStringArray(R.array.Directors);
         String[] duration = getResources().getStringArray(R.array.Duration);
         String[] producers = getResources().getStringArray(R.array.Producers);
+        String[] production = getResources().getStringArray(R.array.Production);
+
         for (int i=0; i< MovieName.length; i++)
         {
             Movielist.add(new MoviesModel(MovieImages[i],MovieName[i],
-                    Release_Date[i],rating[i],"",genre[i],directors[i],duration[i],producers[i],cast[i]));
+                    Release_Date[i],rating[i],"Action films are built around a core set of characteristics: spectacular physical action; a narrative emphasis on fights, chases, and explosions; and a combination of state-of-the-art special effects and stunt-work. However, because the action film has only been recently recognized as a distinct cinematic phenomenon, most of the major overviews of the genre have been published since the 2000s and constitute a new avenue of scholarship in film studies.",
+                    genre[i],directors[i],duration[i],producers[i],cast[i],production[i]));
 
 
         }

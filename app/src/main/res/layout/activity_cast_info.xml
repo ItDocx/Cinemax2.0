@@ -18,10 +18,14 @@
     <RelativeLayout
         android:id="@+id/layout_cover"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_200sdp"
-        android:background="@drawable/ariana_richards_cover"
-        >
+        android:layout_height="@dimen/_200sdp">
 
+        <ImageView
+            android:id="@+id/coverIV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ariana_richards_cover" />
         <ImageView
             android:id="@+id/profileIV"
             android:layout_width="@dimen/_80sdp"
@@ -64,26 +68,48 @@
                 android:textSize="@dimen/_14ssp"
                 android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/DOB_txt"
-            android:layout_below="@id/PersonName_txt"
-            android:layout_width="wrap_content"
-            android:textSize="@dimen/_12ssp"
-            android:layout_height="wrap_content"
-            android:text="Date of Birth:  July 5 2022"
-            android:textStyle="bold"
-            android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Producer: "
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:id="@+id/producers_txt_movieInfo"
+                android:layout_below="@+id/PersonName_txt"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Directors: "
                 android:textColor="@color/white"
-                android:text="Occupation: Actor"
-                android:textStyle="bold"
-                android:layout_below="@id/DOB_txt"
                 android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:id="@+id/directors_txt_movieInfo"
+                android:layout_below="@+id/producers_txt_movieInfo"/>
+
+            <TextView
+                android:id="@+id/DOB_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/directors_txt_movieInfo"
+                android:text="Date of Birth:  July 5 2022"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+
+       <!--     <TextView
+                android:id="@+id/Occupation_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/DOB_txt"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:id="@+id/Occupation_txt"/>
+                android:text="Occupation: Actor"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/Active_txt"
@@ -95,48 +121,46 @@
                 android:text="Years Active: 1999- Present"
                 android:layout_below="@id/Occupation_txt"
                 android:layout_marginTop="@dimen/_5sdp"
-                />
+                />                                    -->
 
             <TextView
+                android:id="@+id/Spouse_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/Spouse_txt"
+                android:layout_below="@id/DOB_txt"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:text="Spouse(s):  Adam Shulman (m. 2012)"
                 android:textColor="@color/white"
-                android:textStyle="bold"
                 android:textSize="@dimen/_12ssp"
-                android:layout_below="@id/Active_txt"
-                android:layout_marginTop="@dimen/_5sdp"/>
+                android:textStyle="bold" />
 
-            <TextView
+<!--            <TextView
+                android:id="@+id/Child_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textSize="@dimen/_12ssp"
-                android:textColor="@color/white"
-                android:text="Childrens: 2"
                 android:layout_below="@id/Spouse_txt"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:id="@+id/Child_txt"
-                />
+                android:text="Childrens: 2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />             -->
 
             <TextView
+                android:id="@+id/OverViewCast_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="OverView: "
-                android:textStyle="bold"
-                android:textSize="@dimen/_12ssp"
-                android:textColor="@color/white"
-                android:layout_below="@id/Child_txt"
+                android:layout_below="@id/Spouse_txt"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:id="@+id/OverViewCast_txt"
-                />
+                android:text="OverView: "
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/OverViewCastChange_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/Child_txt"
+                android:layout_below="@id/Spouse_txt"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_toEndOf="@id/OverViewCast_txt"
                 android:text="sb dnasbj kjas kdbjhb baslcsbc sac ac asccjn a a c cac javchas cac ac agav cjnabcg ac ac axascabc ahbckasb cghklc ahcgjqhdqwdjsc ag  c ascuh asdgqugxcjasv cuygaydgqwjh bduhafcasc as casijxc nlxbcuaciag suhcf asc acbuhagcfas cq cq cs uqshc uiqgchbqshcgui"
