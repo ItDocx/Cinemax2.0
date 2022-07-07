@@ -75,10 +75,11 @@
 
             <TextView
                 android:id="@+id/tdkr_date_txt"
+                android:maxLines="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/tdkr_img"
-                android:text="August 20, 2012"
+                android:text="Aug 20, 2012"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
@@ -115,7 +116,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/jwd_img"
-                android:text="June 10, 2022"
+                android:text="Jun 10, 2022"
+                android:maxLines="1"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
@@ -158,6 +160,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/inception_img"
+                    android:maxLines="1"
                     android:text="Sep 11, 2010"
                     android:textAlignment="center"
                     android:textColor="@color/white"
@@ -194,7 +197,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/jp_img"
-                    android:text="April 12, 2013"
+                    android:text="Apr 12, 2013"
+                    android:maxLines="1"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
@@ -231,8 +235,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/Interstellar_img"
-                android:text="October 26, 2014"
+                android:text="Oct 26, 2014"
                 android:textAlignment="center"
+                android:maxLines="1"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
 

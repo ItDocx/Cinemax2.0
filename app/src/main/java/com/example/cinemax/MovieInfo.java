@@ -351,8 +351,8 @@ String ken = "Ken Watanabe";
 
                     String producers = "Emma Thommas";
                     String directors = "Christopher Nolan";
-                    String overView = "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.";
-                    String production = "Paramount Pictures";
+                    String overView = "Legendary Pictures Productions, LLC is an American film production and mass media company based in Burbank, California, founded by Thomas Tull in 2000. The company has collaborated with the likes of Warner Bros., Universal Pictures, Paramount Pictures and Netflix";
+                    String production = name;
 
                     Intent intent1 = new Intent(MovieInfo.this,MoviesInfowithProduction.class);
                     intent1.putExtra("Director_dp",dp);
@@ -378,10 +378,10 @@ String ken = "Ken Watanabe";
                     String name = "Amblin Entertainment";
                     int cover = R.drawable.ambin_cover;
                     int dp = R.drawable.amblin_dp;
-                    String producers = "Emma Thommas";
-                    String directors = "Christopher Nolan";
-                    String overView = "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.";
-                    String production = "Paramount Pictures";
+                    String producers = frank;
+                    String directors = coli;
+                    String overView = "Amblin Entertainment, Inc., formerly named Amblin Productions and Steven Spielberg Productions, is an American film production company founded by director and producer Steven Spielberg, and film producers Kathleen Kennedy and Frank Marshall in 1981.";
+                    String production = name;
 
                     Intent intent1 = new Intent(MovieInfo.this,MoviesInfowithProduction.class);
                     intent1.putExtra("Director_dp",dp);
@@ -407,10 +407,10 @@ String ken = "Ken Watanabe";
                     String name = "Universal Pictures";
                     int cover = R.drawable.universal_cover;
                     int dp = R.drawable.universal_dp;
-                    String producers = "Emma Thommas";
-                    String directors = "Christopher Nolan";
-                    String overView = "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.";
-                    String production = "Universal Pictures";
+                    String producers = kathlin;
+                    String directors = spiel;
+                    String overView = "Universal Pictures is an American film production and distribution company owned by Comcast through the NBCUniversal Film and Entertainment division of NBCUniversal.";
+                    String production = name;
 
                     Intent intent1 = new Intent(MovieInfo.this,MoviesInfowithProduction.class);
                     intent1.putExtra("Director_dp",dp);
@@ -427,8 +427,7 @@ String ken = "Ken Watanabe";
             });
         }
 
-        if (production.getText().toString().contains(Production5))
-        {
+        if (production.getText().toString().contains(Production5)) {
             production.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -438,8 +437,8 @@ String ken = "Ken Watanabe";
                     int dp = R.drawable.lynda_dp;
                     String producers = "Emma Thommas";
                     String directors = "Christopher Nolan";
-                    String overView = "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.";
-                    String production = "Lynda Obst Production";
+                    String overView = "Lynda Obst Productions is an American film and television production company founded by Lynda Obst. She formed the company in 1989 and moved it to Columbia Pictures. In 1993, her company moved to 20th Century Fox. While Obst has producer credits for films from the 1980s to present, Interstellar was the first to display her company banner";
+                    String production = name;
 
                     Intent intent1 = new Intent(MovieInfo.this,MoviesInfowithProduction.class);
                     intent1.putExtra("Director_dp",dp);
@@ -470,8 +469,8 @@ String ken = "Ken Watanabe";
                 public void onClick(View v) {
 // RMovies
                     int rmovie1,rmovie2;
-                    rmovie1 = R.drawable.inception_dp;
-                    rmovie2 = R.drawable.the_dark_knight_dp;
+                    rmovie2 = R.drawable.inception_dp;
+                    rmovie1 = R.drawable.the_dark_knight_dp;
 
                     String name = chritian;
                     int cover = R.drawable.christian_bale_cover;
@@ -482,9 +481,9 @@ String ken = "Ken Watanabe";
                     String production = "Lynda Obst Production";
 
                     String RMovie1Name = "The Dark Knight Rises";
-                    String RMovie2Name = "Interstellar";
+                    String RMovie2Name = "Inception";
                     String RMovie1date = "Aug 20, 2012";
-                    String RMovie2date = "Oct 26, 2014";
+                    String RMovie2date = "Sep 11, 2010";
 
 
 
@@ -732,7 +731,7 @@ String ken = "Ken Watanabe";
                     String overView = "Ken Watanabe is a Japanese actor. To English-speaking audiences, he is known for playing tragic hero characters, such as General Tadamichi Kuribayashi in Letters from Iwo Jima and Lord Katsumoto Moritsugu in The Last Samurai, for which he was nominated for the Academy Award for Best Supporting Actor.";
                     String production = "Universal Picture";
 
-                    String RMovie1Name = "Inception";
+                    String RMovie1Name = "The Dark Knight Rises";
                     String RMovie2Name = "Interstellar";
                     String RMovie1date = "Aug 20, 2012";
                     String RMovie2date = "Apr 12, 2013";
@@ -834,10 +833,10 @@ String ken = "Ken Watanabe";
                     String overView = "Leonardo Wilhelm DiCaprio is an American actor and film producer. Known for his work as a leading man in biopics and period films, he is the recipient of numerous accolades, including an Academy Award, a British Academy Film Award, and three Golden Globe Awards.";
                     String production = Production4;
 
-                    String RMovie1Name = "Jurassic World";
-                    String RMovie2Name = "Jurassic Park";
-                    String RMovie1date = "Jun 10, 2022";
-                    String RMovie2date = "Apr 12, 2013";
+                    String RMovie1Name = "The Dark Knight Rises";
+                    String RMovie2Name = "Inception";
+                    String RMovie1date = "Aug 20, 2012";
+                    String RMovie2date = "Sep 11, 2010";
 
 
 
