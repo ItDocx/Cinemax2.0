@@ -8,6 +8,7 @@
     tools:context=".CastInfo">
 
 <LinearLayout
+    android:background="@drawable/bg_recycler"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -42,7 +43,7 @@
     <LinearLayout
         android:id="@+id/layout_Data"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="-30dp"
         android:background="@drawable/bg_recycler"
         android:elevation="@dimen/_5sdp"
@@ -50,7 +51,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layout_cover">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+<LinearLayout
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
         <RelativeLayout
             android:layout_margin="@dimen/_10sdp"
             android:layout_width="match_parent"
@@ -129,10 +138,26 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/DOB_txt"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Spouse(s):  Adam Shulman (m. 2012)"
+                android:text="Spouse(s):  "
                 android:textColor="@color/white"
                 android:textSize="@dimen/_12ssp"
                 android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/Spouse_change_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/DOB_txt"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_toEndOf="@id/Spouse_txt"
+                android:text="Spouse(s):  "
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp" />
 
 <!--            <TextView
                 android:id="@+id/Child_txt"
@@ -149,7 +174,7 @@
                 android:id="@+id/OverViewCast_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/Spouse_txt"
+                android:layout_below="@id/Spouse_change_txt"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:text="OverView: "
                 android:textColor="@color/white"
@@ -160,7 +185,7 @@
                 android:id="@+id/OverViewCastChange_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/Spouse_txt"
+                android:layout_below="@id/Spouse_change_txt"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_toEndOf="@id/OverViewCast_txt"
                 android:text="sb dnasbj kjas kdbjhb baslcsbc sac ac asccjn a a c cac javchas cac ac agav cjnabcg ac ac axascabc ahbckasb cghklc ahcgjqhdqwdjsc ag  c ascuh asdgqugxcjasv cuygaydgqwjh bduhafcasc as casijxc nlxbcuaciag suhcf asc acbuhagcfas cq cq cs uqshc uiqgchbqshcgui"
@@ -171,6 +196,89 @@
                 />
 
         </RelativeLayout>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_margin="@dimen/_15sdp"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/layout_RMovie1">
+
+                <TextView
+                    android:id="@+id/Rmovie1_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="The Dark Knight Rises"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/Rmovie1_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_120sdp"
+                    android:layout_below="@id/Rmovie1_txt"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/the_dark_knight_dp" />
+
+                <TextView
+                    android:id="@+id/Rmovie1_date_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Rmovie1_img"
+                    android:text="August 20, 2012"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_margin="@dimen/_15sdp"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/layout_RMovie2">
+
+                <TextView
+                    android:id="@+id/RMovie2_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Jurassic World"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/RMovie2_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_120sdp"
+                    android:layout_below="@id/RMovie2_txt"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/jurassic_world_dp" />
+
+                <TextView
+                    android:id="@+id/RMovie2_date_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/RMovie2_img"
+                    android:text="August 20, 2012"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
     </LinearLayout>
 </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -221,24 +221,74 @@
 
 
             <TextView
-                android:layout_marginTop="@dimen/_5sdp"
                 android:id="@+id/cast_txt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/production_txt"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:text="Cast: "
                 android:textColor="@color/white"
                 android:textStyle="bold" />
 
-                <TextView
-                    android:layout_marginTop="@dimen/_5sdp"
-                    android:layout_below="@id/production_txt"
-                    android:layout_toEndOf="@id/cast_txt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/white"
-                    android:text="anscjnsdfhdncndh asdhkcvadhcvsbdvjl d dfudfh "
-                    android:id="@+id/cast_txt_change"/>
+            <TextView
+                android:id="@+id/cast1_txt_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/production_txt"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_toEndOf="@id/cast_txt"
+                android:text="cast1"
+                android:background="@drawable/bg_txt_stroke"
+                android:visibility="gone"
+                android:textColor="@color/white" />
+            <TextView
+                android:background="@drawable/bg_txt_stroke"
+                android:id="@+id/cast2_txt_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_below="@id/production_txt"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_toEndOf="@id/cast1_txt_change"
+                android:text="cast2"
+                android:textColor="@color/white" />
+            <TextView
+                android:background="@drawable/bg_txt_stroke"
+                android:id="@+id/cast3_txt_change"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/production_txt"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_toEndOf="@id/cast2_txt_change"
+                android:text="cast3"
+                android:textColor="@color/white" />
+            <TextView
+                android:background="@drawable/bg_txt_stroke"
+                android:visibility="gone"
+                android:id="@+id/cast4_txt_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/production_txt"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_toEndOf="@id/cast3_txt_change"
+                android:text="cast4"
+                android:textColor="@color/white" />
+            <TextView
+                android:background="@drawable/bg_txt_stroke"
+                android:visibility="gone"
+                android:id="@+id/cast5_txt_change"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/production_txt"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_toEndOf="@id/cast4_txt_change"
+                android:text="cast5"
+                android:textColor="@color/white" />
 
 
             <TextView
@@ -246,7 +296,7 @@
                 android:id="@+id/related_txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/cast_txt_change"
+                android:layout_below="@id/cast_txt"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:text="Related: "
                 android:textColor="@color/white"

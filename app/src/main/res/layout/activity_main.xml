@@ -23,7 +23,7 @@
             app:iss_period="4000" />
     </androidx.cardview.widget.CardView>
     <LinearLayout
-        android:gravity="center"
+        android:layout_gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -31,15 +31,214 @@
         android:layout_marginTop="-15dp"
         android:elevation="@dimen/_10sdp">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/main_recycler"
-        android:layout_margin="@dimen/_10sdp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-        app:spanCount="2"
-        tools:listitem="@layout/movie_list"
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        />
+
+      <LinearLayout
+          android:gravity="center"
+          android:layout_margin="@dimen/_10sdp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_160sdp"
+            android:id="@+id/layout_TDKRMovie">
+
+            <TextView
+                android:id="@+id/tdkr_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="The Dark Knight Rises"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/tdkr_img"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_below="@id/tdkr_txt"
+                android:scaleType="fitXY"
+                android:src="@drawable/the_dark_knight_dp" />
+
+            <TextView
+                android:id="@+id/tdkr_date_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tdkr_img"
+                android:text="August 20, 2012"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_160sdp"
+            android:id="@+id/layout_JWDMovie">
+
+            <TextView
+                android:id="@+id/jwd_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="Jurassic World Dominnion"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/jwd_img"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_below="@id/jwd_txt"
+                android:scaleType="fitXY"
+                android:src="@drawable/jurassic_world_dp" />
+
+            <TextView
+                android:id="@+id/jwd_date_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jwd_img"
+                android:text="June 10, 2022"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_margin="@dimen/_15sdp"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/layout_InceptionMovie">
+
+                <TextView
+                    android:id="@+id/Inception_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Inception"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/inception_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_120sdp"
+                    android:layout_below="@id/Inception_txt"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/inception_poster" />
+
+                <TextView
+                    android:id="@+id/inception_date_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/inception_img"
+                    android:text="Sep 11, 2010"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_margin="@dimen/_15sdp"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/layout_JPMovie">
+
+                <TextView
+                    android:id="@+id/jp_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Jurassic Park"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"/>
+
+                <ImageView
+                    android:id="@+id/jp_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_120sdp"
+                    android:layout_below="@id/jp_txt"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/jurassic_park_dp" />
+
+                <TextView
+                    android:id="@+id/jp_date_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jp_img"
+                    android:text="April 12, 2013"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_160sdp"
+            android:id="@+id/layout_InterstellarMovie">
+
+            <TextView
+                android:id="@+id/Interstellar_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Interstellar"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/Interstellar_img"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_below="@id/Interstellar_txt"
+                android:scaleType="fitXY"
+                android:src="@drawable/interstellar_dp" />
+
+            <TextView
+                android:id="@+id/Interstellar_date_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Interstellar_img"
+                android:text="October 26, 2014"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
     </LinearLayout>
 </LinearLayout>
